@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exercise</title>
     <style>
+      body{
+        display: flex;
+      }
       * {
         margin: 0;
         padding: 0;
@@ -33,7 +36,7 @@
         border-radius: 3vh;
       }
       .tags div {
-        margin: 1vh;
+        margin: 2vh;
         /* background-color: lightblue; */
         border-radius: 1vh;
         border: 0.1px solid rgb(215, 212, 212);
@@ -51,17 +54,20 @@
         margin-left: 1vw;
         font-size: 3vh;
       }
-      .ends span{
+      .ends{
+        
+        font-size: 2.5vh;
+        width: 9vw;
+        margin: 0vh 6vw;
+      }
+      .ends p{
         background-color: rgb(168, 204, 216);
+        color: rgb(61, 61, 247);
+        margin: 2vh;
+        text-align: center;
+        font-size: 2.5vh;
         border-radius: 1vh;
         height: 3vh;
-        height: 10vh;
-      }
-      .ends{
-        color: rgb(61, 61, 247);
-        margin: 2vh 7vw;
-        font-size: 2vh;
-        width: 10vw;
       }
     </style>
   </head>
@@ -85,7 +91,29 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, quisquam.</p>
       </div>
       <div class="ends">
-        <span>Read More</span>
+        <p>Read More</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="img">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUPIfiGgUML8G3ZqsNLHfaCnZK3I5g4tJabQ&s"
+          alt=""
+        />
+      </div>
+      <div class="tags">
+        <div>Nature</div>
+        <div>Lake</div>
+      </div>
+      <br>
+      <div class="topic">
+        Lago di Braies
+      </div>
+      <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, quisquam.</p>
+      </div>
+      <div class="ends">
+        <p>Read More</p>
       </div>
     </div>
   </body>
